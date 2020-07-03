@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+    padding: 30px;
+    color: azure;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    padding: 50px;
+}
+
+p {
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

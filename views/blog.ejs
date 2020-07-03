@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Blog Post Name: <strong><%= blog.name %></strong></h1>
+
+    <p>
+        <%= blog.id %>
+    </p>
+    <h2>Contact Author</h2>
+    <form>
+        <label for="name"></label>
+        <input type="text" name="name" value="<%= blog.name %>">
+        <label for="title"></label>
+        <input type="text" name="title" value="<%= blog.title %>">
+        <button>Send</button>
+    </form>
+</body>
+
+</html>

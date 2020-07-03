@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+            padding: 30px;
+            color: azure;
+        }
+        
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            color: red;
+            padding: 10px;
+        }
+        
+        h3,
+        h4,
+        p,
+        ul,
+        li {
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: brown;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include ('layouts/nav'); -%>
+        <h1>Blog Posts!</h1>
+        <h3>This is Blog Post
+            <%= name %>
+        </h3>
+        <h3>The post title is <strong><%= data.title %></strong></h3>
+        <h4>Power</h4>
+        <ul>
+            <% data.power.forEach(item=>{ %>
+                <li>
+                    <%= item %>
+                </li>
+                <% }) %>
+        </ul>
+        <p>Author: <small><%= data.mc %> </small></p>
+</body>
+
+</html>

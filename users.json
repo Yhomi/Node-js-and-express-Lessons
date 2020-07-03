@@ -1,0 +1,16 @@
+[{
+        "name": "Luffy",
+        "job": "Pirate",
+        "age": 19
+    },
+    {
+        "name": "Sasuke",
+        "job": "Ninja",
+        "age": 23
+    },
+    {
+        "name": "Killua",
+        "job": "Assasin|Hunter",
+        "age": 15
+    }
+]
